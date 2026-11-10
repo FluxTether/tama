@@ -28,6 +28,11 @@ go.work.sum
 # env file
 .env
 
+# local runtime state (identity, database, UI data)
+data/
+*.key
+identity.json
+
 # Editor/IDE
 # .idea/
 # .vscode/

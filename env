@@ -1,0 +1,11 @@
+# tama runtime configuration.
+# `.env` is gitignored. Copy `.env.example` when setting up a new checkout.
+
+# HTTP port used by the web UI.
+WEB_PORT=8080
+
+# WebSocket relay endpoint.
+WS_RELAY=ws://127.0.0.1:8081
+
+# libp2p relay multiaddr.
+LIBP2P_RELAY=/ip4/127.0.0.1/tcp/4001
